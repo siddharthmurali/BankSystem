@@ -1,12 +1,13 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <errno.h>
-#include <pthread.h>
+#define port "9195" //RUID
 
+typedef struct BankAccount{
+	char acctName[100];
+	float balance;
+	char isf;
+} account; 
+
+#endif
 

@@ -1,0 +1,6 @@
+MULTITHREADED BANK SYSTEM
+by, Siddharth Murali
+--------------------------
+
+
+My multithreaded system uses processes. It uses a threads to print bank information, and send information between the client and server. However, it creates a child process uing fork() everytime there is a new connection.
